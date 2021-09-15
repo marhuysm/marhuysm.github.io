@@ -1,0 +1,177 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Reset */
+ 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+html,
+body,
+div{
+  margin: 0;
+  padding: 0;
+  color : #305252ff;
+}
+
+#header img {
+  display : inline-block;
+  margin : 10px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+#profile {
+  border-radius: 50%;
+  float: left;
+  margin : 20px;
+ }
+ 
+#header{
+  background: #21976B;
+  text-align: center;
+  height: 100%;
+}
+
+.site-title a{
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: 30px;
+  color : rgb(255, 255, 255);
+}
+
+.site-description {
+  color : rgb(255, 255, 255);
+}
+
+.site-title a:link {
+  text-decoration: none;
+}
+
+.site-title a:visited {
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: none;
+}
+
+.site-title a:active {
+  text-decoration: none;
+}
+
+#header ul {
+  margin-left : -30px;
+}
+
+#header ul li {
+  list-style: none;
+}
+
+#main{
+  background: rgb(255, 255, 255);
+  height: 100%;   
+}
+
+/* #secondary {
+  border: 1px solid #ffffff;
+} */
+
+/* Structure Mobile */
+
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+body h1 h2 h3 {
+  color : #21976B;
+}
+
+.wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#primary{
+  max-width: 720px;
+  margin: 0 auto;
+}
+/* 
+#secondary{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+} */
+
+/* Header on the left */
+ 
+@media screen and (min-width : 900px) {
+  #header{
+      top: 40%;
+      left: 0;
+      bottom : fill-available;
+      width: 350px;
+      position: fixed;  
+    }
+
+  body{
+      border-left: 350px solid #21976B;
+  }
+  main{
+    bottom : fill-available;
+    height: 100%;
+  }
+}
+
+
+/* CSS HEX
+--linen: #faf0e6ff;
+--dark-slate-gray: #305252ff;
+--mountain-meadow: #29bc86ff;
+--cedar-chest: #db504aff;
+
+/* CSS HSL */
+/* --linen: hsla(30, 67%, 94%, 1);
+--dark-slate-gray: hsla(180, 26%, 25%, 1);
+--mountain-meadow: hsla(158, 64%, 45%, 1);
+--cedar-chest: hsla(2, 67%, 57%, 1); */
+
+/* SCSS HEX */
+/* $linen: #faf0e6ff;
+$dark-slate-gray: #305252ff;
+$mountain-meadow: #29bc86ff;
+$cedar-chest: #db504aff; */
+
+/* SCSS HSL */
+/* $linen: hsla(30, 67%, 94%, 1);
+$dark-slate-gray: hsla(180, 26%, 25%, 1);
+$mountain-meadow: hsla(158, 64%, 45%, 1);
+$cedar-chest: hsla(2, 67%, 57%, 1); */
+
+/* SCSS RGB */
+/* $linen: rgba(250, 240, 230, 1);
+$dark-slate-gray: rgba(48, 82, 82, 1);
+$mountain-meadow: rgba(41, 188, 134, 1);
+$cedar-chest: rgba(219, 80, 74, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-right: linear-gradient(90deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-bottom: linear-gradient(180deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-left: linear-gradient(270deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-top-right: linear-gradient(45deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-bottom-right: linear-gradient(135deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-top-left: linear-gradient(225deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-bottom-left: linear-gradient(315deg, #faf0e6ff, #305252ff, #29bc86ff, #db504aff);
+$gradient-radial: radial-gradient(#faf0e6ff, #305252ff, #29bc86ff, #db504aff); */

@@ -1,39 +1,91 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Marie Huysman</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div class="nav">
-			<p>Navigation</p>
-				<ul>
-					<li><a id="home" href="#home">Home</a></li>
-					<li><a id="aboutme" href="#aboutme">About me</a></li>
-					<li><a id="Resume" href="#cv">Resume</a></li>
-				</ul>
-		</div>
-    		<div id="home" class="item">
-        		<h1>Hi there, welcome to my personal page &#128522 </h1>
-				<p>I'm a ICT student at the <em>Université Libre de Bruxelles</em>
-				<p>This is just a test page for now, but it may evolve into something better if I have some spare time!</p>
-			</div>
-		<div id="aboutme" class="item">
-			<h2>About me</h2>
-			<p>Graduate in French and Romance language and literature, I’m now an Information and Communication Science (ICT) student at Université Libre de Bruxelles. I focus on NLP technologies through my master’s thesis, but my master’s degree also encompasses information systems, library and information science, data quality, web marketing, data visualization, ergonomics and programming.</p>
-		</div>
-		<div id="cv" class = "item">
-			<h2>Resume</h2>
-			<p>You can click <a href="files/Marie-Huysman-Resume.pdf">here</a> to download my full resume</p>
-		</div>
 
-		<footer>
-    		<ul>
-        		<li><a href="mailto:huysmanm@gmail.com">email</a></li>
-            	<li><a href="mailto:Marie.Huysman@ulb.be">University email</a></li>
-				<li><a href="https://github.com/marhuysm">Github page</a></li>
-				<li><a href="https://www.linkedin.com/in/marie-huysman-499b44140/">Linkedin</a></li>
-			</ul>
-		</footer>
-	</body>
+<head>
+	<title>Marie Huysman</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="page">
+		<div id="header" class="site-header">
+			<div class="wrap">
+				<div id="branding" role="banner">
+					<p class="site-title"><a href="http://marhuysm.github.io">Marie Huysman</a></p>
+					<br>
+					<p class="site-description">ICT Graduate</p>
+						<a href="mailto:huysmanm@gmail.com">
+							<img src="imgs/email.png" alt="send me an e-mail" style="width:30px">
+							<!-- <div>Icônes conçues par <a href="https://www.flaticon.com/fr/auteurs/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com</a></div> -->
+						</a>
+						<a href="https://www.linkedin.com/in/marie-huysman-499b44140/">
+							<img src="imgs/linkedin.png" alt="find me on LinkedIn" style="width:30px">
+						</a>
+						<a href="https://github.com/marhuysm">
+							<img src="imgs/signe-github.png" alt="visit my GitHub page" style="width:30px">
+						</a>
+					</ul>
+				</div>
+				<!--#branding-->
+			</div>
+			<!--.wrap-->
+		</div>
+		<!--#header-->
+
+		<div id="main">
+			<div class="wrap">
+				<h1>Hi there, welcome to my personal page &#128522 </h1>
+				<br>
+				<img id ="profile" src="imgs/profile.jpg" alt="portrait" style="width:200px">
+				<div id="content" role="main">
+
+					<h2>Education</h2>
+					<p>I'm a graduate in Information and Communication Science and technology at the Université Libre de Bruxelles. </p>
+					<p> Now that I graduated, I want to further expand my knowledge in the field of ICT. 
+						My multidisciplinary studies allowed
+						me to approach the management of information systems, databases and projects, as well as
+						elements of digital communication, ergonomic psychology, NLP and
+						programming, with the final objective of developing my skills in information structuring. My
+						thesis, which focuses on abstractive text summarization, also introduced me to the many
+						possibilities of research in NLP.
+
+					</p>
+					<p>
+						Having a bachelor in French and Romance Languages and Letters, I'm also interested in
+						digital humanities, linguistics as well as literature studies.</p>
+					<h2>Interests</h2>
+					<p> I believe in lifelong learning and even though I just got my master's degree, I would like to
+						study new things in my spare time (technology-related or not).
+						I'm interested in projects that connect humans and technology and make everyday life easier,
+						whether it is by offering us a new way of looking at or accessing information, or by providing
+						innovative tools.
+					</p>
+					<p> In my spare time I like to read, do yoga, draw digitally (2D and 3D), cook and go hiking.</p>
+					<p> You can send me an <a href="mailto:huysmanm@gmail.com">email</a> if you want,
+						find me on <a href="https://www.linkedin.com/in/marie-huysman-499b44140/">Linkedin</a>,
+						or take a look and see if I updated a new project on my <a
+							href="https://github.com/marhuysm">Github
+							page</a>.
+					</p>
+					<h2>What am I working on ?</h2>
+					<p> I have just presented my master thesis which focuses on automatic neural abstraction and how it
+						can be applied to the French language. You can always send me an e-mail if you would like to
+						read it, and you can find the github repository related to the case study <a
+							href="https://github.com/marhuysm/memo_rat">here</a>.</p>
+				</div>
+				<!--#content-->
+			</div>
+			<!--#primary-->
+		</div>
+		<!--.wrap-->
+	</div>
+	<!--#main-->
+	</div>
+	<!--#page-->
+
+</body>
+
 </html>
